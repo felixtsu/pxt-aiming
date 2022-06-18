@@ -10,8 +10,7 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "aiming.ts",
-        "test.ts"
+        "aiming.ts"
     ],
     "testFiles": [
         "test.ts"

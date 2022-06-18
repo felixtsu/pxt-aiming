@@ -39,4 +39,8 @@ let spriteB = sprites.create(img`
 `)
 
 
-aiming.createAimingLine(spriteA, spriteB)
+let aimingLine = aiming.createAimingLine(spriteA, spriteB)
+
+controller.B.onEvent(ControllerButtonEvent.Pressed, () => {
+    aiming.destroy(aimingLine)
+})
